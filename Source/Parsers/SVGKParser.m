@@ -147,7 +147,7 @@ SVGKParser* getCurrentlyParsingParser()
     
     if( extension == nil )
     {
-        SVGKitLogVerbose(@"[%@] WARNING: attempted to add a ParserExtension that is null", [self class], extension);
+        SVGKitLogVerbose(@"[%@] WARNING: attempted to add a ParserExtension that is null = %@", [self class], extension);
         return;
     }
 	
